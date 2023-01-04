@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="hr">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+	<title>ElvCar satisfied electric mobility</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Home page">
+	<meta name="keywords" content="Vehicles, Electric, Mobility, Car">
+	<meta name="author" content="Saša Vlaketić">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+	<div class="banner"></div>
+	<nav>
+		<div class="topnav">
+			<a href="Index.html">Home</a>
+			<a href="News.html">News</a>
+			<a href="Contact.html" class="topnav a active">Contact</a>
+			<a href="About.html">About</a>
+			<a href="Gallery.html">Gallery</a>
+		</div>
+	</nav>
+</header>
+<main>
+			<div class="Contact">
+				<div class="map">
+					<h1>Map Location</h1>
+					<iframe src="https://maps.google.com/maps?q=Veleu%C4%8Dili%C5%A1te%20Velika%20Gorica,%20Zagreba%C4%8Dka%20Ulica,%20Velika%20Gorica&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="520" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+				<div class="contact-form">
+					<h1>Contact Form</h1>
+					<h2>If you require any further information, feel free to contact us:</h2>
+					<form action="contact.php" method="post">
+				
+						<label for="fname">First Name *</label>
+						<input type="text" id="fname" name="fname" placeholder="Your first name" required>
+					
+	
+						<label for="lname">Last Name *</label>
+						<input type="text" id="lname" name="lname" placeholder="Your last name" required>
+					
+	
+						<label for="email">E-mail *</label>
+						<input type="email" id="email" name="email" placeholder="Your e-mail" required>
+					
+						<label for="country">Country</label>
+						<select id="country" name="country">
+						<option value="">Please select</option>
+						<option value="Argentina">Argentina</option>
+						<option value="Australia">Australia</option>
+						<option value="Austria">Austria</option>
+						<option value="Belgium">Belgium</option>
+						<option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
+						<option value="Brazil">Brazil</option>										
+						<option value="Bulgaria">Bulgaria</option>
+						<option value="Cambodia">Cambodia</option>
+						<option value="Canada">Canada</option>
+						<option value="Colombia">Colombia</option>
+						<option value="Croatia" selected>Croatia</option>																																			
+						<option value="Germany">Germany</option>
+						<option value="Great Britain">Great Britain</option>
+						<option value="Hungary">Hungary</option>
+						<option value="Italy">Italy</option>
+						<option value="Netherlands">Netherlands (Holland, Europe)</option>
+						<option value="Poland">Poland</option>
+						<option value="Portugal">Portugal</option>
+						<option value="Serbia">Serbia</option>
+						<option value="Russia">Russia</option>
+						<option value="Slovakia">Slovakia</option>
+						<option value="Slovenia">Slovenia</option>			
+						<option value="Spain">Spain</option>
+						<option value="Switzerland">Switzerland</option>			
+						<option value="United Kingdom">United Kingdom</option>
+						<option value="United States of America">United States of America</option>
+						</select>
+					
+						<label for="message">Message *</label>
+						<textarea id="message" name="message" placeholder="Enquiry/Message: " required></textarea>
+					    <label>
+							<input type="checkbox" checked="checked" name="subscribe"> Newsletter
+						</label>
+						<input type="submit" class="button-2" value="Send"> 
+						<input type="reset" class="button-2" value="Reset">
+				</form>
+				</div>
+			</div>
+</main>
+<footer>
+	<p>Copyright &copy; 2022 Saša Vlaketić &commat; Web aplikacije. <a href="https://github.com/sale2e/Projektni-zadatak" target="_blank"><img src="img/GitHub-Mark-Light-32px.png" alt="Github"></a></p>
+</footer>
+</body>
+</html>
